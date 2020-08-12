@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur4"
+    tools:context=".viewdet">
+
+    <TextView
+        android:id="@+id/up"
+        android:layout_width="291dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="24dp"
+        android:text="View Update Work Of"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/emp1"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="3dp"
+        android:text="Employee1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/up"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emp2"
+        android:layout_width="184dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emp3"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emp4"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emp5"
+        android:layout_width="184dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/emp6"
+        android:layout_width="184dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp5" />
+
+    <Button
+        android:id="@+id/emp7"
+        android:layout_width="184dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:text="Employee7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp6" />
+
+    <Button
+        android:id="@+id/emp8"
+        android:layout_width="184dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp7" />
+
+    <Button
+        android:id="@+id/emp9"
+        android:layout_width="184dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Employee9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp8"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tl2"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="8dp"
+        android:text="Team Leader2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl1" />
+
+    <Button
+        android:id="@+id/tl3"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:text="Team Leader3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl2" />
+
+    <Button
+        android:id="@+id/tl1"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="Team Leader1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp9" />
+
+    <Button
+        android:id="@+id/idea"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:text="View More"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl3" />
+
+
+</android.support.constraint.ConstraintLayout>

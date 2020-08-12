@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.myapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="myapp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".appinfo"> ></activity>
+        <activity android:name=".Owner" />
+        <activity android:name=".next" />
+        <activity android:name=".ini1" />
+        <activity android:name=".tlemp3" />
+        <activity android:name=".tlemp2" />
+        <activity android:name=".tlemp1" />
+        <activity android:name=".viewdet" />
+        <activity android:name=".Manager" />
+        <activity android:name=".TeamLeader" />
+        <activity android:name=".tl3" />
+        <activity android:name=".tl2" />
+        <activity android:name=".tl1" />
+        <activity android:name=".employee9" />
+        <activity android:name=".employee8" />
+        <activity android:name=".employee7" />
+        <activity android:name=".employee6" />
+        <activity android:name=".employee5" />
+        <activity android:name=".employee4" />
+        <activity android:name=".employee3" />
+        <activity android:name=".employee2" />
+        <activity android:name=".employee1" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".employee" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Welcome">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
